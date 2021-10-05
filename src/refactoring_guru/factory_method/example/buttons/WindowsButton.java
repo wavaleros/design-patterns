@@ -30,6 +30,7 @@ public class WindowsButton implements Button {
 
         frame.setSize(320, 200);
         frame.setVisible(true);
+        frame.setLocationRelativeTo(null);
         onClick();
     }
 
